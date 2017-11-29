@@ -57,3 +57,5 @@ Parameter Set:
 
 
 [API document of Word2Vec in gensim](https://radimrehurek.com/gensim/models/word2vec.html#gensim.models.word2vec.LineSentence)
+
+You can review the results at [here](https://www.dropbox.com/sh/eqftsar7jwmw375/AADxdbI6ueB5vTjHYIpaXn8Za?dl=0).
