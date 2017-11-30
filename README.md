@@ -37,7 +37,7 @@ Delete empty brackets caused by using WikiExtractor.py
 
 ### 4. Segmentation
 
-Execute **Tokenization.py** to perform segmentation by using **Jieba**. (exsit strange utf-8 problem but executable)
+Execute **Tokenization.py** to perform segmentation by using **Jieba**. 
 
 
 ### 5. Word2Vec(Skip-gram) In Gensim
