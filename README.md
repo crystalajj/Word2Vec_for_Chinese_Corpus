@@ -38,6 +38,13 @@ Delete empty brackets caused by using WikiExtractor.py
 ### 4. Segmentation
 
 Execute **Tokenization.py** to perform segmentation by using **Jieba**. 
+> Common Methods of segmentation:
+>
+Methods of Chinese Segmentation         | Algorithm           | Related Link 
+--------------------|------------------|-----------------------|
+Jieba | Based on a **prefix dictionary structure** to achieve efficient word graph scanning. Build a directed acyclic graph (**DAG**) for all possible word combinations.Use **dynamic programming** to find the most probable combination based on the word frequency.For unknown words, a **HMM-based** model is used with the **Viterbi algorithm**.   | [Github](https://github.com/fxsjy/jieba)   | Sun, J. "‘Jieba’Chinese word segmentation tool." (2012).|
+THULAC(THU Lexical Analyzer for Chinese)       | Based on Structured Perceptron   | [Github](https://github.com/thunlp/THULAC) [paper(2009)](http://www.mitpressjournals.org/doi/pdf/10.1162/coli.2009.35.4.35403)   |  Maosong Sun, Xinxiong Chen, Kaixu Zhang, Zhipeng Guo, Zhiyuan Liu. THULAC: An Efficient Lexical Analyzer for Chinese. 2016.|
+StanfordSegmenter  | Based on CRF      |    [Github](https://github.com/banyh/PyStanfordNLP) [Tutorials](https://nlp.stanford.edu/software/segmenter.shtml) [paper(2005)](https://nlp.stanford.edu/pubs/sighan2005.pdf)  [paper(2008)](https://nlp.stanford.edu/pubs/acl-wmt08-cws.pdf)   |
 
 
 ### 5. Word2Vec(Skip-gram) In Gensim
